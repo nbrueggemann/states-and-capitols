@@ -14,7 +14,7 @@ define([
     "esri/symbols/SimpleFillSymbol",
     "esri/symbols/SimpleLineSymbol",
     "esri/Color",
-    "esri/graphicsUtils",
+    "esri/graphicsUtils", 
 
     "./data/capitols"
 
