@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 watch = require('gulp-watch');
 
-var appDir = "./wab/server/apps/2";
+var appDir = "./wab/client/stemapp";
 
 gulp.task('watch', function () {
     // Watch entire src directory.  When something changes copy it to the apps dir.
