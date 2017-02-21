@@ -35,7 +35,7 @@ define([
 )
 {
     // Define the extended class object
-    var OPIRSearchObject = {
+    var EnhancedSearchObject = {
         //////////////////////////////////////////////////
         //             Extended Properties              //
         //////////////////////////////////////////////////
@@ -256,6 +256,6 @@ define([
     };
 
     // To extent a widget, you need to derive from ParentWidget.
-    var OPIRSearchClass = declare([ParentWidget], OPIRSearchObject);
-    return OPIRSearchClass;
+    var EnhancedSearchClass = declare([ParentWidget], EnhancedSearchObject);
+    return EnhancedSearchClass;
 });
