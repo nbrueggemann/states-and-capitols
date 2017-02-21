@@ -1,0 +1,40 @@
+.helpTooltipDialog {
+    padding-top: 0px;
+}
+
+.helpTooltipDialog .container {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1px;
+}
+
+.helpTooltipDialog .dialogHeader {
+    background-color: #485566;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    color: white;
+    font-size: 11pt;
+    height: 30px;
+    position: relative;
+    padding: 6px;
+}
+
+.helpTooltipDialog .dialogHeader .title {
+    float: left;
+}
+
+.helpTooltipDialog .dialogHeader .closeBtn {
+    background: url(../images/white_close_default.png) no-repeat center center;
+    cursor: pointer;
+    float: right;
+    height: 100%;
+    width: 16px;
+}
+
+.helpTooltipDialog .dialogContent {
+    font-family: Myriad, Helvetica, Tahoma, Arial, clean, sans-serif;
+    padding: 10px;
+}

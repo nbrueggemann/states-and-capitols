@@ -1,0 +1,14 @@
+{
+    "name": "Search",
+    "label": "OPIR Search",
+    "platform": "HTML",
+    "version": "2.1",
+    "wabVersion": "2.1",
+    "author": "Esri - OPIR Project",
+    "description": "An extension of the WAB Search Widget",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+        "inPanel": false
+    }
+}

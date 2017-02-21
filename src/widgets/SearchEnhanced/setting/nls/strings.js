@@ -1,0 +1,12 @@
+/*
+This file is required for
+	resource loading purposes.
+	It IS NOT USED IN THE ACTUAL
+	WIDGET.  Nothing from this file is loaded in widget
+*/
+
+define(
+{
+    root: (
+    {})
+});

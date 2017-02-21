@@ -1,0 +1,56 @@
+/* Import Parent Styles */
+
+@import url("../../Search/css/style.css");
+.jimu-widget-search {
+    opacity: 0.5;
+    z-index: auto !important;
+    /* Override to fix z-index issues with other widgets */
+}
+
+.jimu-widget-search.active {
+    opacity: 1;
+    z-index: 101 !important;
+    /* Override to fix z-index issues with other widgets */
+}
+
+.jimu-widget-search .searchInput {
+    padding-left: 6px !important;
+    padding-right: 45px !important;
+    width: 155px !important;
+}
+
+.jimu-widget-search .arcgisSearch .searchMenu li.active {
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.jimu-widget-search .helpAnchor {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    right: -10px;
+    top: 1px;
+}
+
+.jimu-widget-search .help-link {
+    font-family: 'Avenir Light', Verdana, Geneva, sans-serif;
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    background-color: #686868;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+    top: 9px;
+    height: 16px;
+}
+
+
+/* Scoot the help icon over when the search box has text */
+
+.jimu-widget-search .arcgisSearch .hasValue .help-link {
+    right: 23px;
+}

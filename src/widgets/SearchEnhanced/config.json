@@ -1,0 +1,77 @@
+{
+  "allPlaceholder": "Search All Sources",
+  "help": {
+    "content": "The Search widget will allow you search the map in the following ways:<br /><br />",
+    "sourceTemplate": "<b>${name}</b><br />${help}<br />",
+    "title": "Search Tips"
+  },
+  "showInfoWindowOnSelect": true,
+  "showUsAnExampleFeatureSource": {
+    "displayField": "objectid",
+    "exactMatch": false,
+    "help": "Search for an event ellipse by type.",
+    "layerId": "EventEllipses_8569_0",
+    "maxResults": 6,
+    "maxSuggestions": 6,
+    "name": "Event Ellipses",
+    "placeholder": "Event Ellipses",
+    "searchFields": [
+      "TYPE"
+    ],
+    "searchInCurrentMapExtent": false,
+    "type": "query",
+    "url": "https://stlopir.esri.com/arcgis/rest/services/Hosted/EventEllipses/MapServer/0",
+    "zoomScale": 50000
+  },
+  "sources": [
+    {
+      "countryCode": "",
+      "help": "Search for a place on earth by name.",
+      "maxResults": 6,
+      "maxSuggestions": 6,
+      "name": "Esri World Geocoder",
+      "placeholder": "Esri World Geocoder",
+      "searchInCurrentMapExtent": false,
+      "singleLineFieldName": "SingleLine",
+      "type": "locator",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "zoomScale": 50000
+    },
+    {
+      "help": "The format for Decimal Degrees should look like this: 15.243 16.611",
+      "infoTemplateContent": "X: ${X}<br /> Y: ${Y}",
+      "infoTemplateTitle": "Decimal Degrees",
+      "name": "Decimal Degrees",
+      "placeholder": "Decimal Degrees",
+      "type": "locator_dd",
+      "zoomScale": 25000
+    },
+    {
+      "help": "The format for the degree minute seconds should look like this: 29&deg;58'43.0&quot;N 31&deg;08'04.0&quot;E",
+      "infoTemplateContent": "DMS: ${DMSCoordinate}<br />X: ${X}<br />Y: ${Y}",
+      "infoTemplateTitle": "Degree Minute Seconds",
+      "name": "Degree Minute Seconds",
+      "placeholder": "Degree Minute Seconds",
+      "type": "locator_dms",
+      "zoomScale": 25000
+    },
+    {
+      "help": "The MRGS locations should contain the grid zone designator followed by the 100k meter square id, the easting, and then the northing.  Spaces can either be included or omitted between these parts.  An example is as follows 56HLH3487852289",
+      "infoTemplateContent": "MGRS: ${MGRSCoordinate}<br />X: ${X}<br />Y: ${Y}",
+      "infoTemplateTitle": "MGRS",
+      "name": "MGRS",
+      "placeholder": "MGRS",
+      "type": "locator_mgrs",
+      "zoomScale": 25000
+    },
+    {
+      "help": "The UTM coordinate takes the zone number followed by easting and nothing.  Spaces are required between these parts. For example: 56S 334863 -3747709",
+      "infoTemplateContent": "UTM: ${UTMCoordinate}<br />X: ${X}<br />Y: ${Y}",
+      "infoTemplateTitle": "UTM",
+      "name": "UTM",
+      "placeholder": "UTM",
+      "type": "locator_utm",
+      "zoomScale": 25000
+    }
+  ]
+}
